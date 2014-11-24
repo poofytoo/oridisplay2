@@ -1,0 +1,281 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.30.1.7746/W32 for ARM        11/Nov/2014  16:56:03
+# Copyright 1999-2014 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\MichaelXu\Desktop\STemWin_Library_V1.1.2\Libraries\STemWinLibrary522\Software\WindowDLG.c
+#    Command line =  
+#        C:\Users\MichaelXu\Desktop\STemWin_Library_V1.1.2\Libraries\STemWinLibrary522\Software\WindowDLG.c
+#        -D USE_STDPERIPH_DRIVER -D STM32F429_439xx -D USE_STM32F429I_DISCO -D
+#        USE_USB_OTG_HS -D USE_EMBEDDED_PHY -lcN
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\List\
+#        --diag_suppress Pe111,Pa082 -o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\
+#        --debug --endian=little --cpu=Cortex-M4F -e --fpu=VFPv4_sp
+#        --dlib_config "C:\Program Files\IAR Systems\Embedded Workbench
+#        7.0\arm\INC\c\DLib_Config_Full.h" -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\Config\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\Core\Devices\STM32F4xx\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\Core\User\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\Core\Demo\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\Core\Lib\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\Core\Test_Program\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\STM32_USB_HOST_Library\Core\inc\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\STM32_USB_Device_Library\Core\inc\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\STM32_USB_Device_Library\Class\MSC\inc\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\STM32_USB_Device_Library\Class\HID\inc\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\STM32_USB_Device_Library\Class\Audio\inc\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\STM32_USB_OTG_Driver\inc\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Utilities\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Utilities\Common\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Utilities\STM32F429i-Discovery\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Utilities\Third_Party\fat_fs\inc\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Utilities\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Utilities\Third_Party\FreeRTOS\Source\include\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\STemWinLibrary522_4x9i\inc\
+#        -I
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\..\..\..\Libraries\STemWinLibrary522_4x9i\Config\
+#        -Ohs --use_c++_inline -I "C:\Program Files\IAR Systems\Embedded
+#        Workbench 7.0\arm\CMSIS\Include\"
+#    List file    =  
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\List\WindowDLG.lst
+#    Object file  =  
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\WindowDLG.o
+#
+###############################################################################
+
+C:\Users\MichaelXu\Desktop\STemWin_Library_V1.1.2\Libraries\STemWinLibrary522\Software\WindowDLG.c
+      1          /*********************************************************************
+      2          *                                                                    *
+      3          *                SEGGER Microcontroller GmbH & Co. KG                *
+      4          *        Solutions for real time microcontroller applications        *
+      5          *                                                                    *
+      6          **********************************************************************
+      7          *                                                                    *
+      8          * C-file generated by:                                               *
+      9          *                                                                    *
+     10          *        GUI_Builder for emWin version 5.22                          *
+     11          *        Compiled Jul  4 2013, 15:16:01                              *
+     12          *        (c) 2013 Segger Microcontroller GmbH & Co. KG               *
+     13          *                                                                    *
+     14          **********************************************************************
+     15          *                                                                    *
+     16          *        Internet: www.segger.com  Support: support@segger.com       *
+     17          *                                                                    *
+     18          **********************************************************************
+     19          */
+     20          
+     21          // USER START (Optionally insert additional includes)
+     22          // USER END
+     23          
+     24          #include "DIALOG.h"
+     25          
+     26          /*********************************************************************
+     27          *
+     28          *       Defines
+     29          *
+     30          **********************************************************************
+     31          */
+     32          #define ID_WINDOW_0     (GUI_ID_USER + 0x00)
+     33          #define ID_EDIT_0     (GUI_ID_USER + 0x01)
+     34          #define ID_BUTTON_0     (GUI_ID_USER + 0x02)
+     35          
+     36          
+     37          // USER START (Optionally insert additional defines)
+     38          // USER END
+     39          
+     40          /*********************************************************************
+     41          *
+     42          *       Static data
+     43          *
+     44          **********************************************************************
+     45          */
+     46          
+     47          // USER START (Optionally insert additional static data)
+     48          // USER END
+     49          
+     50          /*********************************************************************
+     51          *
+     52          *       _aDialogCreate
+     53          */
+     54          static const GUI_WIDGET_CREATE_INFO _aDialogCreate[] = {
+     55            { WINDOW_CreateIndirect, "Window", ID_WINDOW_0, 2, -29, 320, 240, 0, 0x0, 0 },
+     56            { EDIT_CreateIndirect, "Edit", ID_EDIT_0, 64, 90, 197, 110, 0, 0x64, 0 },
+     57            { BUTTON_CreateIndirect, "Button", ID_BUTTON_0, 63, 44, 195, 39, 0, 0x0, 0 },
+     58            // USER START (Optionally insert additional widgets)
+     59            // USER END
+     60          };
+     61          
+     62          /*********************************************************************
+     63          *
+     64          *       Static code
+     65          *
+     66          **********************************************************************
+     67          */
+     68          
+     69          // USER START (Optionally insert additional static code)
+     70          // USER END
+     71          
+     72          /*********************************************************************
+     73          *
+     74          *       _cbDialog
+     75          */
+     76          static void _cbDialog(WM_MESSAGE * pMsg) {
+     77            WM_HWIN hItem;
+     78            int     NCode;
+     79            int     Id;
+     80            // USER START (Optionally insert additional variables)
+     81            // USER END
+     82          
+     83            switch (pMsg->MsgId) {
+     84            case WM_INIT_DIALOG:
+     85              //
+     86              // Initialization of 'Edit'
+     87              //
+     88              hItem = WM_GetDialogItem(pMsg->hWin, ID_EDIT_0);
+     89              EDIT_SetText(hItem, "123");
+     90              //
+     91              // Initialization of 'Button'
+     92              //
+     93              hItem = WM_GetDialogItem(pMsg->hWin, ID_BUTTON_0);
+     94              BUTTON_SetFont(hItem, GUI_FONT_24_ASCII);
+     95              // USER START (Optionally insert additional code for further widget initialization)
+     96              // USER END
+     97              break;
+     98            case WM_NOTIFY_PARENT:
+     99              Id    = WM_GetId(pMsg->hWinSrc);
+    100              NCode = pMsg->Data.v;
+    101              switch(Id) {
+    102              case ID_EDIT_0: // Notifications sent by 'Edit'
+    103                switch(NCode) {
+    104                case WM_NOTIFICATION_CLICKED:
+    105                  // USER START (Optionally insert code for reacting on notification message)
+    106                  // USER END
+    107                  break;
+    108                case WM_NOTIFICATION_RELEASED:
+    109                  // USER START (Optionally insert code for reacting on notification message)
+    110                  // USER END
+    111                  break;
+    112                case WM_NOTIFICATION_VALUE_CHANGED:
+    113                  // USER START (Optionally insert code for reacting on notification message)
+    114                  // USER END
+    115                  break;
+    116                // USER START (Optionally insert additional code for further notification handling)
+    117                // USER END
+    118                }
+    119                break;
+    120              case ID_BUTTON_0: // Notifications sent by 'Button'
+    121                switch(NCode) {
+    122                case WM_NOTIFICATION_CLICKED:
+    123                  // USER START (Optionally insert code for reacting on notification message)
+    124                  // USER END
+    125                  break;
+    126                case WM_NOTIFICATION_RELEASED:
+    127                  // USER START (Optionally insert code for reacting on notification message)
+    128                  // USER END
+    129                  break;
+    130                // USER START (Optionally insert additional code for further notification handling)
+    131                // USER END
+    132                }
+    133                break;
+    134              // USER START (Optionally insert additional code for further Ids)
+    135              // USER END
+    136              }
+    137              break;
+    138            // USER START (Optionally insert additional message handling)
+    139            // USER END
+    140            default:
+    141              WM_DefaultProc(pMsg);
+    142              break;
+    143            }
+    144          }
+    145          
+    146          /*********************************************************************
+    147          *
+    148          *       Public code
+    149          *
+    150          **********************************************************************
+    151          */
+    152          /*********************************************************************
+    153          *
+    154          *       CreateWindow
+    155          */
+    156          WM_HWIN CreateWindow(void);
+    157          WM_HWIN CreateWindow(void) {
+    158            WM_HWIN hWin;
+    159          
+    160            hWin = GUI_CreateDialogBox(_aDialogCreate, GUI_COUNTOF(_aDialogCreate), _cbDialog, WM_HBKWIN, 0, 0);
+    161            return hWin;
+    162          }
+    163          
+    164          // USER START (Optionally insert additional public code)
+    165          // USER END
+    166          
+    167          /*************************** End of file ****************************/
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   CreateWindow
+        16   -> GUI_CreateDialogBox
+        16   -> WM_GetDesktopWindow
+       8   _cbDialog
+         0   -> BUTTON_SetFont
+         8   -> EDIT_SetText
+         0   -> WM_DefaultProc
+         8   -> WM_GetDialogItem
+         0   -> WM_GetId
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable6
+       4  ??DataTable6_1
+       4  ??DataTable6_2
+       8  ?_0
+       8  ?_1
+       8  ?_2
+       4  ?_3
+      32  CreateWindow
+      84  _aDialogCreate
+      72  _cbDialog
+
+ 
+  28 bytes in section .rodata
+ 200 bytes in section .text
+ 
+ 200 bytes of CODE  memory
+  28 bytes of CONST memory
+
+Errors: none
+Warnings: none

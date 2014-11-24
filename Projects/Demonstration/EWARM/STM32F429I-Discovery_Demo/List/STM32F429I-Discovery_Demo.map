@@ -1,0 +1,767 @@
+###############################################################################
+#
+# IAR ELF Linker V7.30.1.7746/W32 for ARM                 23/Nov/2014  13:59:37
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Exe\STM32F429I-Discovery_Demo.out
+#    Map file     =  
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\List\STM32F429I-Discovery_Demo.map
+#    Command line =  
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\bsp.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\cpu_utils.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\croutine.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\fatfs_drv.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\ff.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\file_utils.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\frame_view.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\GUI_X_FreeRTOS.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\GUIConf.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\GUIDRV_stm32f429i_discovery.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\heap_2.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\list.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\main.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\misc.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\port_cm4.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\portasm_cm4.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\queue.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\rtc.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\startup_stm32f429_439xx.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Libraries\STemWinLibrary522_4x9i\Lib\STemWin522_4x9i_CM4_OS_IAR.a
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f429i_discovery.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f429i_discovery_ioe.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f429i_discovery_l3gd20.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f429i_discovery_lcd.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f429i_discovery_sdram.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_adc.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_dcmi.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_dma.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_dma2d.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_exti.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_flash.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_fmc.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_gpio.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_i2c.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_ltdc.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_pwr.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_rcc.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_rng.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_rtc.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_sdio.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_spi.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_syscfg.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_tim.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32f4xx_usart.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\stm32xxx_it.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\str_utils.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\syscall.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\system_stm32f4xx.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\tasks.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\test_program.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\time_utils.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\timers.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usb_bsp.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usb_core.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usb_dcd.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usb_dcd_int.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usb_hcd.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usb_hcd_int.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbd_core.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbd_desc.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbd_hid_core.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbd_ioreq.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbd_req.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbd_usr.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbh_core.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbh_hcs.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbh_ioreq.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbh_msc_bot.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbh_msc_core.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbh_msc_scsi.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbh_stdreq.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\usbh_usr.o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj\WindowDLG.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Exe\STM32F429I-Discovery_Demo.out
+#        --map
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\List\STM32F429I-Discovery_Demo.map
+#        --config
+#        C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\stm32f4xx_flash.icf
+#        --semihosting --entry __iar_program_start --redirect
+#        __write=__write_buffered --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = Basic
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x081fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2002ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x1ac
+  .intvec            ro code  0x08000000   0x1ac  startup_stm32f429_439xx.o [1]
+                            - 0x080001ac   0x1ac
+
+"P1":                                     0x6cf8
+  .rodata            const    0x080001ac  0x1a58  stm32f429i_discovery_lcd.o [1]
+  .text              ro code  0x08001c04  0x17f0  stm32f429i_discovery_lcd.o [1]
+  .text              ro code  0x080033f4    0xac  stm32f4xx_gpio.o [1]
+  .text              ro code  0x080034a0    0xdc  stm32f4xx_rcc.o [1]
+  .text              ro code  0x0800357c   0x374  stm32f429i_discovery_sdram.o [1]
+  .text              ro code  0x080038f0   0x18c  stm32f4xx_ltdc.o [1]
+  .text              ro code  0x08003a7c    0xe4  stm32f4xx_dma2d.o [1]
+  .text              ro code  0x08003b60   0x11e  stm32f4xx_spi.o [1]
+  .text              ro code  0x08003c7e    0x22  zero_init3.o [6]
+  .text              ro code  0x08003ca0   0x11c  stm32f4xx_fmc.o [1]
+  .text              ro code  0x08003dbc   0xc1e  usb_hcd_int.o [1]
+  .text              ro code  0x080049dc   0x588  usb_core.o [1]
+  .text              ro code  0x08004f64    0x46  usb_bsp.o [1]
+  .text              ro code  0x08004fac   0x4f4  usb_dcd_int.o [1]
+  .text              ro code  0x080054a0   0x494  usbd_req.o [1]
+  .text              ro code  0x08005934   0x162  usb_dcd.o [1]
+  .text              ro code  0x08005a96    0x8a  usbd_ioreq.o [1]
+  .text              ro code  0x08005b20   0x292  usbd_core.o [1]
+  .text              ro code  0x08005db4   0x1c4  tasks.o [1]
+  .text              ro code  0x08005f78    0x4c  port_cm4.o [1]
+  .text              ro code  0x08005fc4    0x40  list.o [1]
+  .text              ro code  0x08006004    0x70  cpu_utils.o [1]
+  CODE               ro code  0x08006074    0xa0  portasm_cm4.o [1]
+  .text              ro code  0x08006114   0x138  frame_view.o [1]
+  .text              ro code  0x0800624c   0x118  GUICC_M1555I.o [3]
+  .rodata            const    0x08006364   0x100  GUI__DivTbl_255_31.o [3]
+  .rodata            const    0x08006464   0x100  GUI__DivTbl_255_63.o [3]
+  .text              ro code  0x08006564    0xe8  system_stm32f4xx.o [1]
+  .text              ro code  0x0800664c    0xd2  packbits_init.o [6]
+  .text              ro code  0x0800671e     0x6  abort.o [4]
+  .text              ro code  0x08006724    0x14  exit.o [7]
+  .text              ro code  0x08006738    0xd0  GUICC_M565.o [3]
+  .text              ro code  0x08006808    0xae  stm32xxx_it.o [1]
+  .text              ro code  0x080068b8    0x24  test_program.o [1]
+  .text              ro code  0x080068dc     0xc  stm32f4xx_exti.o [1]
+  .text              ro code  0x080068e8    0x1e  stm32f4xx_tim.o [1]
+  .text              ro code  0x08006908    0x98  GUIDRV_stm32f429i_discovery.o [1]
+  .text              ro code  0x080069a0    0x28  GUI_MULTIBUF.o [3]
+  .text              ro code  0x080069c8    0x60  main.o [1]
+  .text              ro code  0x08006a28    0x14  misc.o [1]
+  .text              ro code  0x08006a3c    0x4c  stm32f4xx_rtc.o [1]
+  .rodata            const    0x08006a88    0x40  GUI__DivTbl_63_255.o [3]
+  .text              ro code  0x08006ac8    0x34  rtc.o [1]
+  .text              ro code  0x08006afc    0x1c  stm32f429i_discovery.o [1]
+  .text              ro code  0x08006b18    0x2c  GUICC_M565_Index2Color.o [3]
+  .text              ro code  0x08006b44    0x28  data_init.o [6]
+  .text              ro code  0x08006b6c    0x22  fpinit_M.o [5]
+  .iar.init_table    const    0x08006b90    0x2c  - Linker created -
+  .rodata            const    0x08006bbc    0x20  GUI__DivTbl_31_255.o [3]
+  .text              ro code  0x08006bdc    0x1a  cmain.o [6]
+  .text              ro code  0x08006bf6     0x4  low_level_init.o [4]
+  .text              ro code  0x08006bfa     0x4  exit.o [4]
+  .text              ro code  0x08006c00     0xa  cexit.o [6]
+  .rodata            const    0x08006c0c    0x18  GUICC_M1555I.o [3]
+  .rodata            const    0x08006c24    0x18  GUICC_M565.o [3]
+  .text              ro code  0x08006c3c    0x18  usbh_core.o [1]
+  .text              ro code  0x08006c54    0x10  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c64     0xc  cstartup_M.o [6]
+  .text              ro code  0x08006c70     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c74     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c78     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c7c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c80     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c84     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c88     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c8c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c90     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c94     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c98     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006c9c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006ca0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006ca4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006ca8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cac     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cb0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cb4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cb8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cbc     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cc0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cc4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cc8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006ccc     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cd0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cd4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cd8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cdc     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006ce0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006ce4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006ce8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cec     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cf0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cf4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cf8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006cfc     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d00     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d04     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d08     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d0c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d10     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d14     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d18     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d1c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d20     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d24     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d28     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d2c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d30     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d34     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d38     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d3c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d40     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d44     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d48     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d4c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d50     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d54     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d58     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d5c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d60     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d64     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d68     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d6c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d70     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d74     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d78     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d7c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d80     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d84     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d88     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d8c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d90     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d94     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d98     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006d9c     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006da0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006da4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006da8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dac     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006db0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006db4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006db8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dbc     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dc0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dc4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dc8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dcc     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dd0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dd4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dd8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006ddc     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006de0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006de4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006de8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dec     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006df0     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006df4     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006df8     0x4  startup_stm32f429_439xx.o [1]
+  .text              ro code  0x08006dfc     0x4  startup_stm32f429_439xx.o [1]
+  .rodata            const    0x08006e00     0x0  zero_init3.o [6]
+  .rodata            const    0x08006e00     0x0  packbits_init.o [6]
+  Initializer bytes  ro data  0x08006e00    0xa4  <for P2 s0>
+                            - 0x08006ea4  0x6cf8
+
+"P2":                                     0x38e0
+  P2 s0                       0x20000000   0x29a  <Init block>
+    .data            inited   0x20000000   0x1c4  tasks.o [1]
+    .data            inited   0x200001c4    0x48  GUIDRV_stm32f429i_discovery.o [1]
+    .data            inited   0x2000020c    0x2c  usbd_core.o [1]
+    .data            inited   0x20000238    0x18  stm32f429i_discovery_lcd.o [1]
+    .data            inited   0x20000250    0x14  system_stm32f4xx.o [1]
+    .data            inited   0x20000264     0xc  usbd_desc.o [1]
+    .data            inited   0x20000270     0xc  usbh_core.o [1]
+    .data            inited   0x2000027c     0x8  stm32f429i_discovery.o [1]
+    .data            inited   0x20000284     0x8  stm32f429i_discovery_lcd.o [1]
+    .data            inited   0x2000028c     0x4  port_cm4.o [1]
+    .data            inited   0x20000290     0x4  usbd_core.o [1]
+    .data            inited   0x20000294     0x4  usbh_core.o [1]
+    .data            inited   0x20000298     0x2  rtc.o [1]
+  .bss               zero     0x2000029c   0xb14  bsp.o [1]
+  .bss               zero     0x20000db0   0xa90  test_program.o [1]
+  .bss               zero     0x20001840    0x2c  GUI_MULTIBUF.o [3]
+  .bss               zero     0x2000186c    0x20  test_program.o [1]
+  .bss               zero     0x2000188c    0x18  cpu_utils.o [1]
+  .bss               zero     0x200018a4     0xc  usbd_req.o [1]
+  .bss               zero     0x200018b0     0x8  rtc.o [1]
+  .bss               zero     0x200018b8     0x8  GUICC_M1555I.o [3]
+  .bss               zero     0x200018c0     0x8  GUICC_M565.o [3]
+  .bss               zero     0x200018c8     0x4  frame_view.o [1]
+  .bss               zero     0x200018cc     0x4  main.o [1]
+  .bss               zero     0x200018d0     0x4  stm32xxx_it.o [1]
+  .bss               zero     0x200018d4     0x4  stm32xxx_it.o [1]
+  .bss               zero     0x200018d8     0x4  usbd_core.o [1]
+  .bss               zero     0x200018dc     0x4  usbd_req.o [1]
+  CSTACK                      0x200018e0  0x2000  <Block>
+    CSTACK           uninit   0x200018e0  0x2000  <Block tail>
+                            - 0x200038e0  0x38e0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1644:
+          0x2000029c  0x1644
+
+Copy/packbits (__iar_packbits_init3)
+    1 source range, total size 0xa4 (24% of destination):
+          0x08006e00    0xa4
+    1 destination range, total size 0x29a:
+          0x20000000   0x29a
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                         ro code  ro data  rw data
+    ------                         -------  -------  -------
+C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj: [1]
+    GUIDRV_stm32f429i_discovery.o      152       18       72
+    bsp.o                                              2 836
+    cpu_utils.o                        112                24
+    frame_view.o                       312                 4
+    list.o                              64
+    main.o                              96                 4
+    misc.o                              20
+    port_cm4.o                          76        1        4
+    portasm_cm4.o                      160
+    rtc.o                               52        1       10
+    startup_stm32f429_439xx.o          844
+    stm32f429i_discovery.o              28        2        8
+    stm32f429i_discovery_lcd.o       6 128    6 752       32
+    stm32f429i_discovery_sdram.o       884
+    stm32f4xx_dma2d.o                  228
+    stm32f4xx_exti.o                    12
+    stm32f4xx_fmc.o                    284
+    stm32f4xx_gpio.o                   172
+    stm32f4xx_ltdc.o                   396
+    stm32f4xx_rcc.o                    220
+    stm32f4xx_rtc.o                     76
+    stm32f4xx_spi.o                    286
+    stm32f4xx_tim.o                     30
+    stm32xxx_it.o                      174                 8
+    system_stm32f4xx.o                 232        5       20
+    tasks.o                            452      111      452
+    test_program.o                      36             2 736
+    usb_bsp.o                           70
+    usb_core.o                       1 416
+    usb_dcd.o                          354
+    usb_dcd_int.o                    1 268
+    usb_hcd_int.o                    3 102
+    usbd_core.o                        658       11       52
+    usbd_desc.o                                   3       12
+    usbd_ioreq.o                       138
+    usbd_req.o                       1 172                16
+    usbh_core.o                         24        4       16
+    --------------------------------------------------------
+    Total:                          19 728    6 908    6 306
+
+command line: [2]
+    --------------------------------------------------------
+    Total:
+
+STemWin522_4x9i_CM4_OS_IAR.a: [3]
+    GUICC_M1555I.o                     280       24        8
+    GUICC_M565.o                       208       24        8
+    GUICC_M565_Index2Color.o            44
+    GUI_MULTIBUF.o                      40                44
+    GUI__DivTbl_255_31.o                        256
+    GUI__DivTbl_255_63.o                        256
+    GUI__DivTbl_31_255.o                         32
+    GUI__DivTbl_63_255.o                         64
+    --------------------------------------------------------
+    Total:                             572      656       60
+
+dl7M_tlf.a: [4]
+    abort.o                              6
+    exit.o                               4
+    low_level_init.o                     4
+    --------------------------------------------------------
+    Total:                              14
+
+m7M_tlv.a: [5]
+    fpinit_M.o                          34
+    --------------------------------------------------------
+    Total:                              34
+
+rt7M_tl.a: [6]
+    cexit.o                             10
+    cmain.o                             26
+    cstartup_M.o                        12
+    data_init.o                         40
+    packbits_init.o                    210
+    zero_init3.o                        34
+    --------------------------------------------------------
+    Total:                             332
+
+shb_l.a: [7]
+    exit.o                              20
+    --------------------------------------------------------
+    Total:                              20
+
+    Gaps                                12        4        2
+    Linker created                               44    8 192
+------------------------------------------------------------
+    Grand Total:                    20 712    7 612   14 560
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x08006bdd          Code  Gb  cmain.o [6]
+AHBPrescTable           0x20000254    0x10  Data  Gb  system_stm32f4xx.o [1]
+ASCII16x24_Table        0x080001ac  0x11d0  Data  Gb  stm32f429i_discovery_lcd.o [1]
+Avenir                  0x20000284     0x8  Data  Gb  stm32f429i_discovery_lcd.o [1]
+Avenir_Table            0x0800137c   0x888  Data  Gb  stm32f429i_discovery_lcd.o [1]
+Buffer                  0x2000186c    0x18  Data  Gb  test_program.o [1]
+BusFault_Handler        0x0800680f     0x2  Code  Gb  stm32xxx_it.o [1]
+ButtonPressed           0x200018d0     0x4  Data  Gb  stm32xxx_it.o [1]
+CSTACK$$Base            0x200018e0           --   Gb  - Linker created -
+CSTACK$$Limit           0x200038e0           --   Gb  - Linker created -
+CaptureNumber           0x200018b0     0x4  Data  Gb  rtc.o [1]
+CurrentBackColor        0x2000023a     0x2  Data  Lc  stm32f429i_discovery_lcd.o [1]
+CurrentFrameBuffer      0x20000240     0x4  Data  Lc  stm32f429i_discovery_lcd.o [1]
+CurrentLayer            0x20000244     0x4  Data  Lc  stm32f429i_discovery_lcd.o [1]
+CurrentTextColor        0x20000238     0x2  Data  Lc  stm32f429i_discovery_lcd.o [1]
+DCD_EP_ClrStall         0x08005a47    0x40  Code  Gb  usb_dcd.o [1]
+DCD_EP_Open             0x08005935    0x46  Code  Gb  usb_dcd.o [1]
+DCD_EP_PrepareRx        0x0800597b    0x48  Code  Gb  usb_dcd.o [1]
+DCD_EP_SetAddress       0x08005a87    0x10  Code  Gb  usb_dcd.o [1]
+DCD_EP_Stall            0x08005a07    0x40  Code  Gb  usb_dcd.o [1]
+DCD_EP_Tx               0x080059c3    0x44  Code  Gb  usb_dcd.o [1]
+DCD_HandleInEP_ISR      0x080052a7    0xd4  Code  Lc  usb_dcd_int.o [1]
+DCD_HandleOutEP_ISR     0x0800537b    0xa8  Code  Lc  usb_dcd_int.o [1]
+DCD_WriteEmptyTxFifo    0x0800542d    0x74  Code  Lc  usb_dcd_int.o [1]
+DMA2D_DeInit            0x08003a7d    0x1e  Code  Gb  stm32f4xx_dma2d.o [1]
+DMA2D_GetFlagStatus     0x08003b43    0x10  Code  Gb  stm32f4xx_dma2d.o [1]
+DMA2D_IRQHandler        0x080068b3     0x4  Code  Gb  stm32xxx_it.o [1]
+DMA2D_ISR_Handler       0x08006909     0x8  Code  Gb  GUIDRV_stm32f429i_discovery.o [1]
+DMA2D_Init              0x08003a9b    0x9c  Code  Gb  stm32f4xx_dma2d.o [1]
+DMA2D_StartTransfer     0x08003b37     0xc  Code  Gb  stm32f4xx_dma2d.o [1]
+DMA2_Stream1_IRQHandler
+                        0x080068ad     0x2  Code  Gb  stm32xxx_it.o [1]
+DebugMon_Handler        0x08006813     0x2  Code  Gb  stm32xxx_it.o [1]
+Delay                   0x080068b9    0x12  Code  Gb  test_program.o [1]
+EXTI0_IRQHandler        0x08006829     0xa  Code  Gb  stm32xxx_it.o [1]
+EXTI_ClearITPendingBit  0x080068dd     0x6  Code  Gb  stm32f4xx_exti.o [1]
+EndIdleMonitor          0x08006051    0x20  Code  Gb  cpu_utils.o [1]
+FMC_GetFlagStatus       0x08003d7b    0x2e  Code  Gb  stm32f4xx_fmc.o [1]
+FMC_SDRAMCmdConfig      0x08003d55    0x1a  Code  Gb  stm32f4xx_fmc.o [1]
+FMC_SDRAMInit           0x08003ca1    0xb4  Code  Gb  stm32f4xx_fmc.o [1]
+FMC_SetRefreshCount     0x08003d6f     0xc  Code  Gb  stm32f4xx_fmc.o [1]
+Font16x24               0x20000248     0x8  Data  Gb  stm32f429i_discovery_lcd.o [1]
+FreeRTOS_CPU_IdleSpentTime
+                        0x20001898     0x4  Data  Gb  cpu_utils.o [1]
+FreeRTOS_CPU_IdleStartTime
+                        0x20001894     0x4  Data  Gb  cpu_utils.o [1]
+FreeRTOS_CPU_TotalIdleTime
+                        0x2000189c     0x4  Data  Gb  cpu_utils.o [1]
+FreeRTOS_CPU_Usage      0x20001890     0x4  Data  Gb  cpu_utils.o [1]
+GPIO_Init               0x080033f5    0x72  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_PIN                0x08006b14     0x4  Data  Gb  stm32f429i_discovery.o [1]
+GPIO_PORT               0x2000027c     0x8  Data  Gb  stm32f429i_discovery.o [1]
+GPIO_PinAFConfig        0x08003479    0x28  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_ResetBits          0x0800346b     0x4  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_SetBits            0x08003467     0x4  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_WriteBit           0x0800346f     0xa  Code  Gb  stm32f4xx_gpio.o [1]
+GUI_MULTIBUF_ConfirmEx  0x080069a1    0x22  Code  Gb  GUI_MULTIBUF.o [3]
+GUI__aConvert_255_31    0x08006364   0x100  Data  Gb  GUI__DivTbl_255_31.o [3]
+GUI__aConvert_255_63    0x08006464   0x100  Data  Gb  GUI__DivTbl_255_63.o [3]
+GUI__aConvert_31_255    0x08006bbc    0x20  Data  Gb  GUI__DivTbl_31_255.o [3]
+GUI__aConvert_63_255    0x08006a88    0x40  Data  Gb  GUI__DivTbl_63_255.o [3]
+HardFault_Handler       0x0800680b     0x2  Code  Gb  stm32xxx_it.o [1]
+InStream_Read           0x0800664d    0x22  Code  Lc  packbits_init.o [6]
+LCD_AF_GPIOConfig       0x0800327f   0x15a  Code  Lc  stm32f429i_discovery_lcd.o [1]
+LCD_API_ColorConv_M1555I
+                        0x08006c0c    0x18  Data  Gb  GUICC_M1555I.o [3]
+LCD_API_ColorConv_M565  0x08006c24    0x18  Data  Gb  GUICC_M565.o [3]
+LCD_Clear               0x08001d75    0x14  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_CtrlLinesConfig     0x08003173    0x48  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_Currentfonts        0x200018c8     0x4  Data  Lc  frame_view.o [1]
+LCD_Currentfonts        0x2000023c     0x4  Data  Lc  stm32f429i_discovery_lcd.o [1]
+LCD_DrawChar            0x08001d89    0x82  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_DrawCircle          0x08001e0b    0x7e  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_DrawFullCircle      0x08001e8d   0x1ee  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_Index2Color_M565    0x08006b19    0x2c  Code  Gb  GUICC_M565_Index2Color.o [3]
+LCD_Init                0x08001c05    0xa4  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_LayerInit           0x08001ca9    0xa2  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_PowerOn             0x080020e1  0x1092  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_SPIConfig           0x080031bb    0xc4  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_SetFont             0x08001d6d     0x8  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_SetLayer            0x08001d4b    0x1a  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_SetTextColor        0x08001d65     0x8  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LCD_WriteData           0x0800208d    0x48  Code  Gb  stm32f429i_discovery_lcd.o [1]
+LTDC_Cmd                0x08003989    0x16  Code  Gb  stm32f4xx_ltdc.o [1]
+LTDC_DitherCmd          0x0800399f    0x16  Code  Gb  stm32f4xx_ltdc.o [1]
+LTDC_IRQHandler         0x080068af     0x4  Code  Gb  stm32xxx_it.o [1]
+LTDC_ISR_Handler        0x08006911    0x7e  Code  Gb  GUIDRV_stm32f429i_discovery.o [1]
+LTDC_Init               0x080038f1    0x98  Code  Gb  stm32f4xx_ltdc.o [1]
+LTDC_LayerCmd           0x08003a51    0x12  Code  Gb  stm32f4xx_ltdc.o [1]
+LTDC_LayerInit          0x080039bb    0x96  Code  Gb  stm32f4xx_ltdc.o [1]
+LTDC_ReloadConfig       0x080039b5     0x6  Code  Gb  stm32f4xx_ltdc.o [1]
+MemManage_Handler       0x0800680d     0x2  Code  Gb  stm32xxx_it.o [1]
+NMI_Handler             0x08006809     0x2  Code  Gb  stm32xxx_it.o [1]
+NVIC_PriorityGroupConfig
+                        0x08006a29     0xa  Code  Gb  misc.o [1]
+OTG_HS_IRQHandler       0x08006837    0x14  Code  Gb  stm32xxx_it.o [1]
+PendSV_Handler          0x08006817     0x2  Code  Gb  stm32xxx_it.o [1]
+PeriodValue             0x200018b4     0x4  Data  Gb  rtc.o [1]
+RCC_AHB1PeriphClockCmd  0x080034c5    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_AHB1PeriphResetCmd  0x080034fb    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_AHB3PeriphClockCmd  0x080034d7    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x0800350d    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x080034e9    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x0800351f    0x12  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_GetFlagStatus       0x08003531    0x22  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_LTDCCLKDivConfig    0x080034b7     0xe  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_PLLSAICmd           0x080034b1     0x6  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_PLLSAIConfig        0x080034a1    0x10  Code  Gb  stm32f4xx_rcc.o [1]
+RTC_Alarm_IRQHandler    0x08006ac9    0x2e  Code  Gb  rtc.o [1]
+RTC_ClearITPendingBit   0x08006a69    0x18  Code  Gb  stm32f4xx_rtc.o [1]
+RTC_GetITStatus         0x08006a3d    0x2c  Code  Gb  stm32f4xx_rtc.o [1]
+RTC_HandlerFlag         0x20000298     0x1  Data  Gb  rtc.o [1]
+Region$$Table$$Base     0x08006b90           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08006bbc           --   Gb  - Linker created -
+SDRAM_GPIOConfig        0x080035e5   0x1f8  Code  Gb  stm32f429i_discovery_sdram.o [1]
+SDRAM_Init              0x0800357d    0x68  Code  Gb  stm32f429i_discovery_sdram.o [1]
+SDRAM_InitSequence      0x080037dd    0xf8  Code  Gb  stm32f429i_discovery_sdram.o [1]
+SET_TEST_MODE           0x200018d8     0x4  Data  Gb  usbd_core.o [1]
+SPI_Cmd                 0x08003c59    0x14  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_DeInit          0x08003b61    0xa8  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_GetFlagStatus   0x08003c71     0xe  Code  Gb  stm32f4xx_spi.o [1]
+SPI_I2S_SendData        0x08003c6d     0x4  Code  Gb  stm32f4xx_spi.o [1]
+SPI_Init                0x08003c09    0x38  Code  Gb  stm32f4xx_spi.o [1]
+STM_EVAL_LEDOn          0x08006afd    0x12  Code  Gb  stm32f429i_discovery.o [1]
+SVC_Handler             0x08006815     0x2  Code  Gb  stm32xxx_it.o [1]
+StartIdleMonitor        0x0800603b    0x16  Code  Gb  cpu_utils.o [1]
+SysTick_Handler         0x08006819    0x10  Code  Gb  stm32xxx_it.o [1]
+SystemCoreClock         0x20000250     0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit              0x08006565    0xd0  Code  Gb  system_stm32f4xx.o [1]
+TIM2_IRQHandler         0x08006833     0x4  Code  Gb  stm32xxx_it.o [1]
+TIM5_IRQHandler         0x0800684b    0x42  Code  Gb  stm32xxx_it.o [1]
+TIM_ClearITPendingBit   0x08006901     0x6  Code  Gb  stm32f4xx_tim.o [1]
+TIM_GetCapture4         0x080068e9     0x4  Code  Gb  stm32f4xx_tim.o [1]
+TIM_GetITStatus         0x080068ed    0x14  Code  Gb  stm32f4xx_tim.o [1]
+TimingDelay             0x20001888     0x4  Data  Lc  test_program.o [1]
+TimingDelay_Decrement   0x080068cb     0xe  Code  Gb  test_program.o [1]
+USBD_ClrCfg             0x08005d47    0x12  Code  Gb  usbd_core.o [1]
+USBD_CtlContinueRx      0x08005acd    0x14  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlContinueSendData
+                        0x08005ab9    0x14  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlReceiveStatus   0x08005b01    0x20  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendData        0x08005a97    0x22  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendStatus      0x08005ae1    0x20  Code  Gb  usbd_ioreq.o [1]
+USBD_DCD_INT_cb         0x2000020c    0x2c  Data  Gb  usbd_core.o [1]
+USBD_DCD_INT_fops       0x20000290     0x4  Data  Gb  usbd_core.o [1]
+USBD_DataInStage        0x08005bf5    0xb2  Code  Lc  usbd_core.o [1]
+USBD_DataOutStage       0x08005b7d    0x78  Code  Lc  usbd_core.o [1]
+USBD_DevConnected       0x08005d7d    0x16  Code  Lc  usbd_core.o [1]
+USBD_DevDisconnected    0x08005d93    0x20  Code  Lc  usbd_core.o [1]
+USBD_DeviceQualifierDesc
+                        0x20000264     0xc  Data  Gb  usbd_desc.o [1]
+USBD_GetDescriptor      0x08005791   0x14a  Code  Lc  usbd_req.o [1]
+USBD_IsoINIncomplete    0x08005d59    0x12  Code  Lc  usbd_core.o [1]
+USBD_IsoOUTIncomplete   0x08005d6b    0x12  Code  Lc  usbd_core.o [1]
+USBD_OTG_ISR_Handler    0x08004fad   0x2fa  Code  Gb  usb_dcd_int.o [1]
+USBD_ParseSetupRequest  0x080058f1    0x44  Code  Gb  usbd_req.o [1]
+USBD_Reset              0x08005cad    0x2e  Code  Lc  usbd_core.o [1]
+USBD_Resume             0x08005cdb    0x1e  Code  Lc  usbd_core.o [1]
+USBD_SOF                0x08005d19    0x16  Code  Lc  usbd_core.o [1]
+USBD_SetCfg             0x08005d2f    0x18  Code  Gb  usbd_core.o [1]
+USBD_SetupStage         0x08005b21    0x5c  Code  Lc  usbd_core.o [1]
+USBD_StdDevReq          0x080054a1   0x1a8  Code  Gb  usbd_req.o [1]
+USBD_StdEPReq           0x08005695    0xfc  Code  Gb  usbd_req.o [1]
+USBD_StdItfReq          0x08005649    0x4c  Code  Gb  usbd_req.o [1]
+USBD_Suspend            0x08005cf9    0x20  Code  Lc  usbd_core.o [1]
+USBD_cfg_status         0x200018a8     0x4  Data  Gb  usbd_req.o [1]
+USBD_default_cfg        0x200018ac     0x4  Data  Gb  usbd_req.o [1]
+USBD_ep_status          0x200018dc     0x4  Data  Gb  usbd_req.o [1]
+USBH_Connected          0x08006c3d     0xa  Code  Gb  usbh_core.o [1]
+USBH_Disconnected       0x08006c47     0xa  Code  Gb  usbh_core.o [1]
+USBH_HCD_INT_cb         0x20000270     0xc  Data  Gb  usbh_core.o [1]
+USBH_HCD_INT_fops       0x20000294     0x4  Data  Gb  usbh_core.o [1]
+USBH_OTG_ISR_Handler    0x08003dbd    0xf8  Code  Gb  usb_hcd_int.o [1]
+USBH_SOF                0x08006c51     0x4  Code  Gb  usbh_core.o [1]
+USB_Host                0x20000d2c    0x84  Data  Gb  bsp.o [1]
+USB_OTG_BSP_TimerIRQ    0x08004fa9     0x2  Code  Gb  usb_bsp.o [1]
+USB_OTG_BSP_mDelay      0x08004f85    0x1e  Code  Gb  usb_bsp.o [1]
+USB_OTG_BSP_uDelay      0x08004f65    0x20  Code  Gb  usb_bsp.o [1]
+USB_OTG_Core            0x2000029c   0xa90  Data  Gb  bsp.o [1]
+USB_OTG_EP0Activate     0x08004bc1    0x34  Code  Gb  usb_core.o [1]
+USB_OTG_EP0StartXfer    0x08004dcd    0xde  Code  Gb  usb_core.o [1]
+USB_OTG_EP0_OutStart    0x08004f2d    0x20  Code  Gb  usb_core.o [1]
+USB_OTG_EPActivate      0x08004bf5    0x66  Code  Gb  usb_core.o [1]
+USB_OTG_EPClearStall    0x08004edd    0x28  Code  Gb  usb_core.o [1]
+USB_OTG_EPSetStall      0x08004ead    0x30  Code  Gb  usb_core.o [1]
+USB_OTG_EPStartXfer     0x08004c5d   0x170  Code  Gb  usb_core.o [1]
+USB_OTG_FlushTxFifo     0x08004a81    0x40  Code  Gb  usb_core.o [1]
+USB_OTG_GetDeviceSpeed  0x08004b95    0x2a  Code  Gb  usb_core.o [1]
+USB_OTG_HC_DoPing       0x08004b73    0x22  Code  Gb  usb_core.o [1]
+USB_OTG_HC_Halt         0x08004b31    0x42  Code  Gb  usb_core.o [1]
+USB_OTG_InitFSLSPClkSel
+                        0x08004ae3    0x12  Code  Gb  usb_core.o [1]
+USB_OTG_IsDeviceMode    0x08004ac1     0xe  Code  Gb  usb_core.o [1]
+USB_OTG_IsHostMode      0x08004acf     0xa  Code  Gb  usb_core.o [1]
+USB_OTG_ReadCoreItr     0x08004ad9     0xa  Code  Gb  usb_core.o [1]
+USB_OTG_ReadDevAllInEPItr
+                        0x08004f21     0xc  Code  Gb  usb_core.o [1]
+USB_OTG_ReadDevAllOutEp_itr
+                        0x08004f05     0xc  Code  Gb  usb_core.o [1]
+USB_OTG_ReadDevOutEP_itr
+                        0x08004f11    0x10  Code  Gb  usb_core.o [1]
+USB_OTG_ReadHostAllChannels_intr
+                        0x08004af5     0x6  Code  Gb  usb_core.o [1]
+USB_OTG_ReadPacket      0x08004a35    0x4a  Code  Gb  usb_core.o [1]
+USB_OTG_ResetPort       0x08004afb    0x36  Code  Gb  usb_core.o [1]
+USB_OTG_USBH_handle_IncompletePeriodicXfer_ISR
+                        0x080049b3    0x28  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_hc_n_In_ISR
+                        0x08004525   0x378  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_hc_n_Out_ISR
+                        0x080041ed   0x338  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_nptxfempty_ISR
+                        0x08003eb5   0x11a  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_port_ISR
+                        0x080040eb    0xfe  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_ptxfempty_ISR
+                        0x08003fcf   0x11c  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_rx_qlvl_ISR
+                        0x0800489d   0x116  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_WritePacket     0x080049dd    0x58  Code  Gb  usb_core.o [1]
+USB_OTG_dev             0x20000db0   0xa90  Data  Gb  test_program.o [1]
+UsageFault_Handler      0x08006811     0x2  Code  Gb  stm32xxx_it.o [1]
+Xval                    0x20001884     0x1  Data  Gb  test_program.o [1]
+Yval                    0x20001885     0x1  Data  Gb  test_program.o [1]
+_Color2IndexBulk        0x08006761    0x42  Code  Lc  GUICC_M565.o [3]
+_Color2IndexBulk_M1555I
+                        0x080062ad    0x4a  Code  Lc  GUICC_M1555I.o [3]
+_Color2Index_M1555I     0x0800624d    0x2a  Code  Lc  GUICC_M1555I.o [3]
+_Color2Index_M565       0x08006739    0x22  Code  Lc  GUICC_M565.o [3]
+_GetIndexMask_M1555I    0x080062a7     0x6  Code  Lc  GUICC_M1555I.o [3]
+_GetIndexMask_M565      0x0800675b     0x6  Code  Lc  GUICC_M565.o [3]
+_Index2ColorBulk        0x080067a3    0x52  Code  Lc  GUICC_M565.o [3]
+_Index2ColorBulk_M1555I
+                        0x080062f7    0x62  Code  Lc  GUICC_M1555I.o [3]
+_Index2Color_M1555I     0x08006277    0x30  Code  Lc  GUICC_M1555I.o [3]
+_UseSingleFrame         0x20001868     0x4  Data  Lc  GUI_MULTIBUF.o [3]
+__cmain                 0x08006bdd          Code  Gb  cmain.o [6]
+__exit                  0x08006725    0x14  Code  Gb  exit.o [7]
+__iar_data_init3        0x08006b45    0x28  Code  Gb  data_init.o [6]
+__iar_init_vfp          0x08006b6d          Code  Gb  fpinit_M.o [5]
+__iar_packbits_init3    0x0800666f    0xb0  Code  Gb  packbits_init.o [6]
+__iar_program_start     0x08006c65          Code  Gb  cstartup_M.o [6]
+__iar_zero_init3        0x08003c7f    0x22  Code  Gb  zero_init3.o [6]
+__low_level_init        0x08006bf7     0x4  Code  Gb  low_level_init.o [4]
+__vector_table          0x08000000          Data  Gb  startup_stm32f429_439xx.o [1]
+_aBufferIndex           0x200001d4     0x8  Data  Lc  GUIDRV_stm32f429i_discovery.o [1]
+_aBytesPerPixels        0x200001ec     0x8  Data  Lc  GUIDRV_stm32f429i_discovery.o [1]
+_aLock                  0x20001850     0x8  Data  Lc  GUI_MULTIBUF.o [3]
+_aNumBuffers            0x20001860     0x8  Data  Lc  GUI_MULTIBUF.o [3]
+_aPend                  0x20001858     0x8  Data  Lc  GUI_MULTIBUF.o [3]
+_aPendingBuffer         0x200001cc     0x8  Data  Lc  GUIDRV_stm32f429i_discovery.o [1]
+_aView                  0x20001840     0x8  Data  Lc  GUI_MULTIBUF.o [3]
+_aWork                  0x20001848     0x8  Data  Lc  GUI_MULTIBUF.o [3]
+_apColorConvAPI         0x200001f4     0x8  Data  Lc  GUIDRV_stm32f429i_discovery.o [1]
+_apLayer                0x200001c4     0x8  Data  Lc  GUIDRV_stm32f429i_discovery.o [1]
+_axSize                 0x200001dc     0x8  Data  Lc  GUIDRV_stm32f429i_discovery.o [1]
+_aySize                 0x200001e4     0x8  Data  Lc  GUIDRV_stm32f429i_discovery.o [1]
+_call_main              0x08006be9          Code  Gb  cmain.o [6]
+_exit                   0x08006c01          Code  Gb  cexit.o [6]
+_main                   0x08006bf3          Code  Gb  cmain.o [6]
+_pfColor2IndexBulk      0x200018b8     0x4  Data  Lc  GUICC_M1555I.o [3]
+_pfColor2IndexBulk      0x200018c0     0x4  Data  Lc  GUICC_M565.o [3]
+_pfIndex2ColorBulk      0x200018bc     0x4  Data  Lc  GUICC_M1555I.o [3]
+_pfIndex2ColorBulk      0x200018c4     0x4  Data  Lc  GUICC_M565.o [3]
+abort                   0x0800671f     0x6  Code  Gb  abort.o [4]
+alarm_now               0x20000299     0x1  Data  Gb  rtc.o [1]
+demo_mode               0x200018cc     0x4  Data  Gb  main.o [1]
+draw_view               0x08006115   0x138  Code  Gb  frame_view.o [1]
+exit                    0x08006bfb     0x4  Code  Gb  exit.o [4]
+main                    0x080069c9    0x52  Code  Gb  main.o [1]
+pxCurrentTCB            0x2000003c     0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x20000130     0x4  Data  Lc  tasks.o [1]
+pxOverflowDelayedTaskList
+                        0x20000134     0x4  Data  Lc  tasks.o [1]
+pxReadyTasksLists       0x20000040    0xf0  Data  Lc  tasks.o [1]
+tmpCC4                  0x200018d4     0x4  Data  Gb  stm32xxx_it.o [1]
+uxCriticalNesting       0x2000028c     0x4  Data  Lc  port_cm4.o [1]
+uxCurrentNumberOfTasks  0x2000013c     0x4  Data  Lc  tasks.o [1]
+uxMissedTicks           0x20000154     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x20000150     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x20000160     0x4  Data  Lc  tasks.o [1]
+uxTasksDeleted          0x20000138     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x20000148     0x4  Data  Lc  tasks.o [1]
+uxTopUsedPriority       0x20000144     0x4  Data  Lc  tasks.o [1]
+vApplicationTickHook    0x08006005    0x36  Code  Gb  cpu_utils.o [1]
+vListInsertEnd          0x08005fc5    0x1c  Code  Gb  list.o [1]
+vListRemove             0x08005fe1    0x24  Code  Gb  list.o [1]
+vPortClearInterruptMask
+                        0x080060c9          Code  Gb  portasm_cm4.o [1]
+vPortEnableVFP          0x080060f9          Code  Gb  portasm_cm4.o [1]
+vPortEnterCritical      0x08005f79    0x14  Code  Gb  port_cm4.o [1]
+vPortExitCritical       0x08005f8d    0x10  Code  Gb  port_cm4.o [1]
+vPortSVCHandler         0x080060d3          Code  Gb  portasm_cm4.o [1]
+vPortSetInterruptMask   0x080060bf          Code  Gb  portasm_cm4.o [1]
+vPortStartFirstTask     0x080060eb          Code  Gb  portasm_cm4.o [1]
+vTaskIncrementTick      0x08005dcb    0xe0  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x08005ead    0xc0  Code  Gb  tasks.o [1]
+xDelayedTaskList1       0x20000168    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x2000017c    0x14  Data  Lc  tasks.o [1]
+xIdleHandle             0x2000188c     0x4  Data  Gb  cpu_utils.o [1]
+xMissedYield            0x20000158     0x4  Data  Lc  tasks.o [1]
+xNextTaskUnblockTime    0x20000164     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x2000015c     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x20000000    0x14  Data  Lc  tasks.o [1]
+xPortPendSVHandler      0x08006075          Code  Gb  portasm_cm4.o [1]
+xPortSysTickHandler     0x08005f9d    0x1e  Code  Gb  port_cm4.o [1]
+xSchedulerRunning       0x2000014c     0x4  Data  Lc  tasks.o [1]
+xSuspendedTaskList      0x20000028    0x14  Data  Lc  tasks.o [1]
+xTaskGetCurrentTaskHandle
+                        0x08005f6d     0x6  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x08005db5    0x16  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x20000014    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x20000140     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = C:\Users\MichaelXu\Desktop\STM32F429I-Discovery_FW_V1.0.1\Projects\Demonstration\EWARM\STM32F429I-Discovery_Demo\Obj
+[2] = command line
+[3] = STemWin522_4x9i_CM4_OS_IAR.a
+[4] = dl7M_tlf.a
+[5] = m7M_tlv.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+  20 712 bytes of readonly  code memory
+   7 612 bytes of readonly  data memory
+  14 560 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
