@@ -12,7 +12,7 @@
           
           
           
-        <Column0>374</Column0><Column1>30</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+        <Column0>391</Column0><Column1>30</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
       </Workspace>
       <Build>
         
@@ -20,7 +20,7 @@
         
         
       <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1036</ColumnWidth1><ColumnWidth2>295</ColumnWidth2><ColumnWidth3>73</ColumnWidth3></Build>
-    <Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1478</ColumnWidth1></Debug-Log><TerminalIO/></Static>
+    <Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1478</ColumnWidth1></Debug-Log><TerminalIO/><Find-All-References><ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Find-All-References></Static>
     <Windows>
       
       
@@ -32,7 +32,7 @@
             <Factory>Workspace</Factory>
             <Session>
               
-            <NodeDict><ExpandedNode>STM32F429I-Discovery_Demo</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Appli</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Appli/Demo</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Appli/Test</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Appli/User</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Libraries</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Libraries/STM32429I-DISCO</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Libraries/STM32F4xx_StdPeriph_Driver</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Libraries/STemWinLibrary522_4x9i</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Libraries/STemWinLibrary522_4x9i/Config</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Utilities</ExpandedNode></NodeDict></Session>
+            <NodeDict><ExpandedNode>STM32F429I-Discovery_Demo</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Appli</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Appli/Demo</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Appli/Test</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Appli/User</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Libraries</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Libraries/STemWinLibrary522_4x9i</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Libraries/STemWinLibrary522_4x9i/Config</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Libraries/STemWinLibrary522_4x9i/Lib</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Libraries/STemWinLibrary522_4x9i/OS</ExpandedNode><ExpandedNode>STM32F429I-Discovery_Demo/Utilities</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
         
@@ -44,7 +44,7 @@
             <Factory>Build</Factory>
             <Session/>
           </Tab>
-        <Tab><Identity>TabID-17317-17494</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        <Tab><Identity>TabID-17317-17494</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-19043-17503</Identity><TabName>References</TabName><Factory>Find-All-References</Factory><Session/></Tab></Tabs>
         
       <SelectedTab>0</SelectedTab></Wnd1></Windows>
     <Editor>
@@ -52,14 +52,14 @@
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Core\Test_Program\frame_view.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>46</YPos2><SelStart2>1988</SelStart2><SelEnd2>1988</SelEnd2></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Core\Test_Program\test_program.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>44</YPos2><SelStart2>2911</SelStart2><SelEnd2>2920</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Core\User\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>105</YPos2><SelStart2>3038</SelStart2><SelEnd2>3038</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\Utilities\Common\fonts.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>918</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\Utilities\STM32F429I-Discovery\stm32f429i_discovery_lcd.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>84</YPos2><SelStart2>2960</SelStart2><SelEnd2>2960</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Core\Test_Program\frame_view.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Core\Test_Program\frame_view.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>37</YPos2><SelStart2>1884</SelStart2><SelEnd2>1884</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Core\Test_Program\test_program.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>104</YPos2><SelStart2>5353</SelStart2><SelEnd2>5353</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Core\User\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>105</YPos2><SelStart2>3038</SelStart2><SelEnd2>3038</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\Utilities\Common\fonts.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>918</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\Utilities\STM32F429I-Discovery\stm32f429i_discovery_lcd.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>662</YPos2><SelStart2>22235</SelStart2><SelEnd2>22235</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Core\Test_Program\frame_view.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\Utilities\STM32F429I-Discovery\stm32f429i_discovery_lcd.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>71</YPos2><SelStart2>2129</SelStart2><SelEnd2>2144</SelEnd2></Tab><ActiveTab>6</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\Utilities\Common\fonts.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>59</YPos2><SelStart2>2010</SelStart2><SelEnd2>2010</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-035DCC70><key>iaridepm.enu1</key></Toolbar-035DCC70></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>590</Bottom><Right>468</Right><x>-2</x><y>-2</y><xscreen>33</xscreen><yscreen>66</yscreen><sizeHorzCX>20625</sizeHorzCX><sizeHorzCY>79807</sizeHorzCY><sizeVertCX>293750</sizeVertCX><sizeVertCY>715840</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>192</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>194</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>234583</sizeHorzCY><sizeVertCX>20625</sizeVertCX><sizeVertCY>79807</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-035DCC70><key>iaridepm.enu1</key></Toolbar-035DCC70></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>714</Bottom><Right>468</Right><x>-2</x><y>-2</y><xscreen>33</xscreen><yscreen>66</yscreen><sizeHorzCX>25781</sizeHorzCX><sizeHorzCY>69401</sizeHorzCY><sizeVertCX>367188</sizeVertCX><sizeVertCY>752892</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>192</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>194</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>203996</sizeHorzCY><sizeVertCX>25781</sizeVertCX><sizeVertCY>69401</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 

@@ -76,7 +76,7 @@ extern sFONT Avenir;
 /** @defgroup FONTS_Exported_Constants
   * @{
   */ 
-#define LINE(x) ((x) * (((sFONT *)LCD_GetFont())->Height))
+#define LINE(x) (LCD_PIXEL_WIDTH-(x) * (((sFONT *)LCD_GetFont())->Height))
 
 /**
   * @}

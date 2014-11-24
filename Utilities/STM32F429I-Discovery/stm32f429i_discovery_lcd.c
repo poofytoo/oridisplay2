@@ -642,9 +642,9 @@ void LCD_DrawChar(uint16_t Xpos, uint16_t Ypos, const uint16_t *c)
           /* Write data value to all SDRAM memory */
          *(__IO uint16_t*) (CurrentFrameBuffer + (2*Xaddress) + xpos) = CurrentTextColor;         
       }
-      Xaddress++;
+      Xaddress+=LCD_PIXEL_WIDTH;
     }
-      Xaddress += (LCD_PIXEL_WIDTH - LCD_Currentfonts->Width);
+      Xaddress -= LCD_PIXEL_WIDTH*LCD_Currentfonts->Width+1;
   }
 }
 
@@ -661,7 +661,7 @@ void LCD_DisplayChar(uint16_t Line, uint16_t Column, uint8_t Ascii)
 {
   Ascii -= 32;
 
-  LCD_DrawChar(Line, Column, &LCD_Currentfonts->table[Ascii * LCD_Currentfonts->Height]);
+  LCD_DrawChar(Column, Line, &LCD_Currentfonts->table[Ascii * LCD_Currentfonts->Height]);
 }
 
 /**
